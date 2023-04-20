@@ -8,6 +8,7 @@ class GlobalStore {
     makeObservable(this, {
         todos: observable,
         getTodos: action,
+        hydrateTodos: action,
     })
   }
 
